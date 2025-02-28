@@ -2,7 +2,7 @@ function transfer_url(to_name) {
 	let mystic_num = document.getElementById("number").value;
 	
 	if (!mystic_num) {
-		alert('尚未輸入');
+		alert('尚未输入');
 		return;
 	}
 		
@@ -29,8 +29,8 @@ var mySwiper = new Swiper( ".swiper-container", {
     spaceBetween: 30,
 	direction: "horizontal",
 	navigation: {
-		nextEl: ".swiper-button-next", // 上一頁按鈕物件
-		prevEl: ".swiper-button-prev", // 下一頁按鈕物件
+		nextEl: ".swiper-button-next", // 上一页按钮物件
+		prevEl: ".swiper-button-prev", // 下一页按钮物件
 	},
 	initialSlide: localStorage.position,
 	on: {
