@@ -18,7 +18,7 @@ function transfer_url(to_name) {
 			url = `https://www.pixiv.net/artworks/${mystic_num}`;
 			break;
 		case 'jm':
-			url = `https://18comic-uc.vip/album/${mystic_num}`;
+			url = `https://18comic-mhws.org/album/${mystic_num}`;
 			break;
 	}
 	
